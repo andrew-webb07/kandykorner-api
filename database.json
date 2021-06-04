@@ -1,0 +1,25 @@
+{
+    "locations" : [
+        {
+            "id": 1,
+            "name": "Rita's Ice Cream",
+            "address": "5555 Farmington Hills",
+            "squareFootage": 500,
+            "handicapAccessible": true
+        },
+        {
+            "id": 2,
+            "name": "Barrel Candy",
+            "address": "1234 Detroit",
+            "squareFootage": 60,
+            "handicapAccessible": false
+        },
+        {
+            "id": 3,
+            "name": "Mocchi's Palace",
+            "address": "8888 Dearborn Heights",
+            "squareFootage": 350,
+            "handicapAccessible": true
+        }
+    ]
+}
