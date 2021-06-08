@@ -1,25 +1,208 @@
 {
-    "locations" : [
-        {
-            "id": 1,
-            "name": "Rita's Ice Cream",
-            "address": "5555 Farmington Hills",
-            "squareFootage": 500,
-            "handicapAccessible": true
-        },
-        {
-            "id": 2,
-            "name": "Barrel Candy",
-            "address": "1234 Detroit",
-            "squareFootage": 60,
-            "handicapAccessible": false
-        },
-        {
-            "id": 3,
-            "name": "Mocchi's Palace",
-            "address": "8888 Dearborn Heights",
-            "squareFootage": 350,
-            "handicapAccessible": true
-        }
-    ]
+  "locations": [
+    {
+      "id": 1,
+      "name": "Rita's Ice Cream",
+      "address": "5555 Farmington Hills",
+      "squareFootage": 500,
+      "handicapAccessible": true
+    },
+    {
+      "id": 2,
+      "name": "Barrel Candy",
+      "address": "1234 Detroit",
+      "squareFootage": 60,
+      "handicapAccessible": false
+    },
+    {
+      "id": 3,
+      "name": "Mocchi's Palace",
+      "address": "8888 Dearborn Heights",
+      "squareFootage": 350,
+      "handicapAccessible": true
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Jawbreakers",
+      "price": 1.49,
+      "productTypeId": 1
+    },
+    {
+      "id": 2,
+      "name": "Hot Tamales",
+      "price": 2.99,
+      "productTypeId": 1
+    },
+    {
+      "id": 3,
+      "name": "Juicy Fruit",
+      "price": 0.5,
+      "productTypeId": 2
+    },
+    {
+      "id": 4,
+      "name": "Snickers",
+      "price": 1.89,
+      "productTypeId": 3
+    },
+    {
+      "id": 5,
+      "name": "Twix",
+      "price": 1.99,
+      "productTypeId": 3
+    },
+    {
+      "id": 6,
+      "name": "Coke",
+      "price": 3.99,
+      "productTypeId": 4
+    }
+  ],
+  "employees": [
+    {
+      "name": "Dakota",
+      "locationId": 2,
+      "isManager": true,
+      "fullTime": false,
+      "hourlyRate": "4",
+      "id": 1
+    },
+    {
+      "name": "riley",
+      "locationId": 3,
+      "isManager": true,
+      "fullTime": true,
+      "hourlyRate": "15",
+      "id": 2
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "type": "Hard Candy"
+    },
+    {
+      "id": 2,
+      "type": "Gum"
+    },
+    {
+      "id": 3,
+      "type": "Chocolate"
+    },
+    {
+      "id": 4,
+      "type": "Sodas"
+    }
+  ],
+  "customers": [
+    {
+      "email": "andrew@email.com",
+      "name": "Andrew Webb",
+      "id": 1
+    },
+    {
+      "email": "michaelScarn@gmail.com",
+      "name": "Michael Scott",
+      "id": 2
+    },
+    {
+      "email": "24@gmail.com",
+      "name": "Jack Bauer",
+      "id": 3
+    }
+  ],
+  "customerCandies": [
+    {
+      "customerId": 1,
+      "productId": 4,
+      "id": 1
+    },
+    {
+      "customerId": 1,
+      "productId": 1,
+      "id": 2
+    },
+    {
+      "customerId": 1,
+      "productId": 5,
+      "id": 3
+    },
+    {
+      "customerId": 1,
+      "productId": 4,
+      "id": 4
+    },
+    {
+      "customerId": 1,
+      "productId": 5,
+      "id": 5
+    },
+    {
+      "customerId": 1,
+      "productId": 1,
+      "id": 6
+    },
+    {
+      "customerId": 2,
+      "productId": 1,
+      "id": 7
+    },
+    {
+      "customerId": 2,
+      "productId": 3,
+      "id": 8
+    },
+    {
+      "customerId": 2,
+      "productId": 2,
+      "id": 9
+    },
+    {
+      "customerId": 2,
+      "productId": 4,
+      "id": 10
+    },
+    {
+      "customerId": 2,
+      "productId": 6,
+      "id": 11
+    },
+    {
+      "customerId": 3,
+      "productId": 3,
+      "id": 12
+    },
+    {
+      "customerId": 3,
+      "productId": 5,
+      "id": 13
+    },
+    {
+      "customerId": 3,
+      "productId": 4,
+      "id": 14
+    },
+    {
+      "customerId": 3,
+      "productId": 4,
+      "id": 15
+    },
+    {
+      "customerId": 3,
+      "productId": 4,
+      "id": 16
+    },
+    {
+      "customerId": 3,
+      "productId": 4,
+      "id": 17
+    },
+    {
+      "customerId": 3,
+      "productId": 4,
+      "id": 18
+    }
+  ]
 }
